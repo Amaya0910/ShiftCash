@@ -1,0 +1,35 @@
+.form-label {
+    display: block;
+    text-align: left;
+}
+
+#fondo {
+    background-color: #8A9CD3;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tarjeta {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #3a4877;
+    padding: 40px;
+    width: 500px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn-registrate {
+    background-color: #5F74C1;
+    color: white;
+    border: none;
+    width: 150px;
+    transition: 0.5s;
+}
+
+#btn-registrate:hover {
+    background-color: #3a4877;
+}

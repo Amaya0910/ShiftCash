@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShiftCash</title>
+
+    <!-- Bootstrap CSS (primero) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Tus estilos DESPUÉS de Bootstrap -->
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+</head>
+<body>
+
+
+     <!--- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Shift<span id="cash">Cash </span> <i class="bi bi-coin fs-4 text-primary" ></i></a> 
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav"> 
+          <li class="nav-item">
+            <a class="nav-link" href="#hero">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#somos">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+    <main>
+        
+    <!-- hero section -->
+     <section class="hero-section" id="hero"> 
+      
+      <div class="container py-5">
+        <div class="row align-items-center text-center">
+          <div class="col-md-6 py-5">
+            <h1>Impulsa tus ahorros con ShiftCash</h1>
+            <p>En ShiftCash, ayudamos a gestionar tus finanzas con soluciones innovadoras y accesibles.</p>
+            <a target="_blank" href="inicio-sesion.html" class="btn" id="btn-iniciar-sesion">Inicia Sesion</a>
+             <a target="_blank" href="registrarse.html" class="btn" id="btn-registrarse">Registrate</a>
+          </div>
+          <div class="col-md-6">
+            <img id="logo" src="images/Logo-sinFondo.png" alt="Shift Cash" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+     <!-- quienes somos -->
+     <section id="somos" class="somos-section py-5">
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <div class="col-md-6">
+            <!-- grafica de barras aqui-->
+             <img id="grafica" src="images/Grafica.jpg" alt="Grafica de barras" class="img-fluid">
+          </div>
+          <div class="col-md-6 py-5">
+            <h2>¿Quiénes somos?</h2>
+            <p>Somos un equipo de profesionales apasionados por la tecnología y las finanzas, dedicados a crear soluciones que faciliten la gestión financiera de nuestros usuarios. En ShiftCash, creemos en el poder de la innovación para transformar la forma en que las personas manejan su dinero, brindando herramientas accesibles y efectivas para mejorar su bienestar financiero.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Sección de servicios -->
+     <section class="services-section py-5" id="servicios">
+      <div class="container">
+        <h2 class="text-center mb-4">Nuestros Servicios</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          
+ 
+          <!-- Servicio 1 card -->
+           <div class="col">
+          <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card-body text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="bi bi-wallet fs-1 text-primary"></i>
+              </div>
+              <h5 class="card-title fw-bold">Registrar tus gastos</h5>
+              <p class="card-text text-muted">
+                Registra y categoriza tus gastos de manera sencilla y eficiente.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Servicio 2 card -->
+         <div class="col">
+          <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card-body text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="bi bi-arrow-90deg-up fs-1 text-primary"></i>
+              </div>
+              <h5 class="card-title fw-bold">Manejo de ingresos</h5>
+              <p class="card-text text-muted">
+                Controla y organiza tus ingresos de manera efectiva.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Servicio 3 card -->
+         <div class="col">
+          <div class="card h-100 border-0 shadow-sm card-hover">
+            <div class="card-body text-center p-4">
+              <div class="icon-box mb-3">
+                <i class="bi bi-graph-up fs-1 text-primary"></i>
+              </div>
+              <h5 class="card-title fw-bold">Análisis de presupuesto</h5>
+              <p class="card-text text-muted">
+                Analiza tu presupuesto con graficas personalizadas para mejorar tus finanzas.
+              </p>
+            </div>
+          </div>
+        </div>
+          </div>
+
+      </div>
+     </section>
+
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ShiftCash. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+
+</html>
