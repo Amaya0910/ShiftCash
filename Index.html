@@ -14,7 +14,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Tus estilos DESPUÉS de Bootstrap -->
-    <link href="css/index.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
 </head>
 
 </head>
@@ -40,9 +40,6 @@
             <a class="nav-link" href="#servicios">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contacto">Contacto</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#footer">Nosotros</a>
           </li>
         </ul>
@@ -63,8 +60,8 @@
           <div class="col-md-6 py-5">
             <h1>Impulsa tus ahorros con ShiftCash</h1>
             <p>En ShiftCash, ayudamos a gestionar tus finanzas con soluciones innovadoras y accesibles.</p>
-            <a target="_blank" href="inicio-sesion.html" class="btn" id="btn-iniciar-sesion">Inicia Sesion</a>
-             <a target="_blank" href="registrarse.html" class="btn" id="btn-registrarse">Registrate</a>
+            <a target="_blank" href="login.html" class="btn" id="btn-iniciar-sesion">Inicia Sesion</a>
+             <a target="_blank" href="registro.html" class="btn" id="btn-registrarse">Registrate</a>
           </div>
           <div class="col-md-6">
             <img id="logo" src="images/Logo-sinFondo.png" alt="Shift Cash" class="img-fluid">
@@ -154,9 +151,44 @@
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 ShiftCash. All rights reserved.</p>
-    </footer>
+     <footer class="bg-dark text-white py-4" id="footer">
+  <div class="container">
+
+    <div class="row g-4 mb-4">
+
+      <div class="col-md-4">
+        <h5 class="fw-bold">Shift<span id="cash">Cash</span> <i class="bi bi-coin fs-4 text-primary"></i></h5>
+        <p class="text-white-50 small mt-2">
+          Tu aliado para tomar el control de tus finanzas personales. Registra, analiza y mejora tus hábitos de gasto.
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <h6 class="fw-bold text-uppercase mb-3" style="font-size: 0.75rem; letter-spacing: 0.1em;">Navegación</h6>
+        <ul class="list-unstyled">
+          <li><a href="#hero" class="text-white-50 text-decoration-none small">Inicio</a></li>
+          <li><a href="#somos" class="text-white-50 text-decoration-none small">¿Quiénes somos?</a></li>
+          <li><a href="#servicios" class="text-white-50 text-decoration-none small">Servicios</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h6 class="fw-bold text-uppercase mb-3" style="font-size: 0.75rem; letter-spacing: 0.1em;">Cuenta</h6>
+        <ul class="list-unstyled">
+          <li><a href="login.html"      class="text-white-50 text-decoration-none small">Iniciar sesión</a></li>
+          <li><a href="registro.html"   class="text-white-50 text-decoration-none small">Registrarse</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <hr class="border-secondary">
+    <p class="text-center text-white-50 small mb-0">
+      &copy; 2026 ShiftCash. Todos los derechos reservados.
+    </p>
+
+  </div>
+</footer>
 
 
 

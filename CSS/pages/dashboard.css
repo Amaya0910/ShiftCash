@@ -1,0 +1,39 @@
+body {
+  font-family: verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: sans-serif;
+}
+
+.bi-coin {
+  color: #FFF !important;
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #5F74C1;
+}
+.navbar .navbar-brand {
+  color: #cfd7fd;
+}
+
+.navbar .nav-item .nav-link {
+  color: #cfd7fd;
+  transition: color 0.2s;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #000000;
+}
+
+.navbar-toggler {
+  border-color: #cfd7fd;
+}
+
+#cash {
+  font-family: 'Syne', sans-serif;
+}
